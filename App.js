@@ -5,8 +5,8 @@ import styles from './styles';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>NutriGoal</Text>
-      <Text style={styles.subtitle}>Your AI-Enhanced Macro Tracking Assistant</Text>
+
+      <Text style={styles.title}>nutriGoal</Text>
 
       <ScrollView contentContainerStyle={styles.menu}>
         <TouchableOpacity style={styles.button}>
@@ -27,6 +27,7 @@ export default function App() {
       </ScrollView>
 
       <StatusBar style="auto" />
+
     </View>
   );
 }

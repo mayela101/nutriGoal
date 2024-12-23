@@ -12,13 +12,8 @@ const styles = StyleSheet.create({
     fontSize: 32,
     fontWeight: 'bold',
     color: '#2c3e50',
+    marginTop: 45,
     marginBottom: 10,
-  },
-  subtitle: {
-    fontSize: 18,
-    color: '#34495e',
-    marginBottom: 20,
-    textAlign: 'center',
   },
   menu: {
     width: '100%',
