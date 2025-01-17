@@ -1,0 +1,33 @@
+{
+    "name": "nutrigoal-backend",
+    "version": "1.0.0",
+    "description": "Backend for the nutriGoal app",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "cors": "^16.0.3",
+        "dotenv":  "^16.0.3",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.0",
+        "mongoose": "^7.0.0"
+      },
+      "devDependencies": {
+        "eslint": "^8.50.0",
+        "nodemon": "^2.0.22"
+      },
+      "contributers": [
+        {
+            "name": "Viri Delgado",
+            "email": "viridiana.connect@gmail.com"
+        },
+        {
+            "name": "Mayela Ancheta",
+            "email": "connect.mayela@gmail.com"
+        }
+      ],
+      "license": "MIT"
+}
