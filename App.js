@@ -5,30 +5,33 @@ import styles from './styles';
 export default function App() {
   return (
     <View style={styles.container}>
-
       <Text style={styles.title}>nutriGoal</Text>
 
-      <ScrollView contentContainerStyle={styles.menu}>
-        <TouchableOpacity style={styles.button}>
-          <Text style={styles.buttonText}>Macro Tracking</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.button}>
-          <Text style={styles.buttonText}>7-Day Meal Planner</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.button}>
-          <Text style={styles.buttonText}>Recipe Management</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.button}>
-          <Text style={styles.buttonText}>Weight Input</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.button}>
-          <Text style={styles.buttonText}>Barcode Scanning</Text>
-        </TouchableOpacity>
-      </ScrollView>
+    <View style={styles.welcome}>
+      <Text style={styles.welcomeUser}>Welcome, User!</Text>
+    </View>
+      <View style={styles.menu}>
+        <View style={styles.pieFigure}>
+          <Text>Pie Chart</Text>
+        </View>
+
+        <View style={styles.buttonContainer}>
+          <TouchableOpacity style={styles.button}>
+            <Text style={styles.buttonText}>Log Meal</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.button}>
+            <Text style={styles.buttonText}>Log Exercise</Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+
+    <View style = {styles.weekly}>
+      <View style={styles.weeklyFigure}>
+        <Text>01/03-01/10</Text>
+      </View>
+    </View>
 
       <StatusBar style="auto" />
-
     </View>
   );
 }
-
