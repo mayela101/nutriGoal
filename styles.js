@@ -44,17 +44,55 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center',
   },
+
+  
   pieFigure: {
     flex: 1,
-    marginRight: 10, 
-    alignItems:'center',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginVertical: 0,
+    paddingLeft: 150,
   },
-  weeklyFigure: {
+
+  
+  weekly: {
     flex: 1,
-    marginTop: 10, 
+    marginTop: 15,
     alignItems:'center',
   },
+
+  bottomNav: {
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    right: 0,
+    backgroundColor: '#fff',
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+    paddingVertical: 20,
+    borderTopWidth: 1,
+    borderColor: '#2c3e50',
+  },
+  navButton: {
+    paddingTop: 0,
+    paddingBottom: 10,
+  },
+  navButtonText: {
+    color: '#2c3e50',
+    fontSize: 18,
+    fontWeight: 'bold',
+  }, 
 
 });
 
-export default styles;
+const chartConfig = {
+  backgroundColor: '#f0f4f7',
+  backgroundGradientFrom: '#f0f4f7',
+  backgroundGradientTo: '#f0f4f7',
+  decimalPlaces: 0,
+  color: (opacity = 1) => `rgba(0, 0, 0, ${opacity})`,
+  labelColor: (opacity = 1) => `rgba(0, 0, 0, ${opacity})`,
+};
+
+export { styles as default, chartConfig };
