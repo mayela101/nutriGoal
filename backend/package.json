@@ -9,17 +9,17 @@
     },
     "dependencies": {
         "bcryptjs": "^2.4.3",
-        "cors": "^16.0.3",
-        "dotenv":  "^16.0.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
         "express": "^4.18.2",
         "jsonwebtoken": "^9.0.0",
         "mongoose": "^7.0.0"
-      },
-      "devDependencies": {
+    },
+    "devDependencies": {
         "eslint": "^8.50.0",
         "nodemon": "^2.0.22"
-      },
-      "contributers": [
+    },
+    "contributers": [
         {
             "name": "Viri Delgado",
             "email": "viridiana.connect@gmail.com"
@@ -28,6 +28,8 @@
             "name": "Mayela Ancheta",
             "email": "connect.mayela@gmail.com"
         }
-      ],
-      "license": "MIT"
+    ],
+    "license": "MIT",
+    "keywords": [],
+    "author": ""
 }

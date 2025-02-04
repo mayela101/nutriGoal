@@ -17,7 +17,7 @@ connectDB();
 
 //routes
 app.use('/api/exercise', require('./routes/exerciseRoutes'));
-app.use('/api/mealPlan', require('./routes/mealPlanRoutes'));
+app.use('/api/bugdet', require('./routes/budgetRoutes'));
 app.use('/api/meal', require('./routes/mealRoutes'));
 app.use('/api/recipe', require('./routes/recipeRoutes'));
 app.use('/api/user', require('./routes/userRoutes'));
